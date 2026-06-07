@@ -658,7 +658,19 @@
       .p2-header { padding-bottom: 28px; }
 
       .traits-container { width: 95vw; height: auto; min-height: 340px; }
-      .tr-5, .tr-6 { transform: none; left: 1%; right: 1%; }
+      .tr-5 {
+          left: -10px;
+          right: auto;
+          top: 50%;
+          transform: translateY(-50%);
+      }
+
+    .tr-6 {
+          right: -10px;
+          left: auto;
+          top: 50%;
+          transform: translateY(-50%);
+      }
       .trait-label { font-size: 8px; padding: 4px 8px; }
 
       #page4 { flex-direction: column; }
@@ -769,7 +781,7 @@
       <div class="letter-card">
         <div class="letter-title">Dearest sayangku,</div>
         <div class="letter-body">
-         inally, its our first mensive. Happy one month sayangku 💞<br><br>
+        Finally, its our first mensive. Happy one month sayangku 💞<br><br>
           Kendrick M. The only man I have admired since the very first day we met and exchanged our names. The man who is now mine and a part of my complicated life. The man I always prioritize, love, and cherish.<br><br>
           Thank you for always making me feel like the most loved boy in the world. I love you, always.<br><br>
         </div>
@@ -818,6 +830,11 @@
           <img src="https://i.pinimg.com/736x/fc/cf/4b/fccf4b856c65bbbe51c8a29f6ea3b017.jpg" alt="nothing's gonna hurt you baby">
           <span>nothing's gonna hurt you baby</span>
           <small>Cigarettes After Sex</small>
+        </div>
+        <div class="song-card" data-src="skyline.mp3" data-img="https://i.pinimg.com/736x/96/16/72/96167294e5b908af8c15e0b5ff142c45.jpg" data-title="Cool enough for you" data-artist="Skyline">
+          <img src="https://i.pinimg.com/736x/96/16/72/96167294e5b908af8c15e0b5ff142c45.jpg" alt="Cool enough for you">
+          <span>Cool enough for you</span>
+          <small>Skyline</small>
         </div>
       </div>
       <button class="playlist-btn" onclick="document.getElementById('page5').scrollIntoView({behavior:'smooth'});">
